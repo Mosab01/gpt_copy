@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Add Copy Code Button",
+  "version": "1.0",
+  "description": "Adds a second copy code button at the end of code blocks.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

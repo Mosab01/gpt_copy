@@ -1,0 +1,14 @@
+.copy-code-btn {
+    display: flex;
+    background: #444;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.copy-code-btn:hover {
+    background: #666;
+}
